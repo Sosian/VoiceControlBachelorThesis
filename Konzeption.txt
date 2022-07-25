@@ -1,7 +1,8 @@
 Ich brauche Steps
-* Start specific Musik
+* Start specific Musik X
 ** Also set volume
-** Also set if it loops
-* Play specific Sound
+** Also set if it loops X
+* Play specific Sound X
 ** Also set volume
-- Stop specific Musik
+- Stop specific Musik X
+- Check if Chapters are working

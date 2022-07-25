@@ -9,7 +9,7 @@ queueStepper = QueueStepper("Chapters.json", pygame)
 
 programmAktiv = True
 
-while programmAktiv and not queueStepper.isEndReached():
+while (programmAktiv and not queueStepper.isEndReached()):
     for event in pygame.event.get():
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_q:
