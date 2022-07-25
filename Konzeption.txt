@@ -1,0 +1,7 @@
+Ich brauche Steps
+* Start specific Musik
+** Also set volume
+** Also set if it loops
+* Play specific Sound
+** Also set volume
+- Stop specific Musik
