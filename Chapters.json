@@ -20,6 +20,27 @@
                     "stepFunction": "StopMusic"
                 }
             ] 
+        },
+        {
+            "id": 1,
+            "name": "Whats is Groove",
+            "steps": [
+                {
+                    "id": 0,
+                    "stepFunction": "Music",
+                    "file": "Music/PleasureShortened330.mp3",
+                    "loops": -1
+                },
+                {
+                    "id": 1,
+                    "stepFunction": "Sound",
+                    "file": "Music/Section3_Azure.wav"
+                },
+                {
+                    "id": 2,
+                    "stepFunction": "StopMusic"
+                }
+            ] 
         }
     ]
 }

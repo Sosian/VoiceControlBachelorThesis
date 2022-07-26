@@ -11,12 +11,11 @@ class QueueStepper:
         chaptersFile = open(path)
         chaptersJson = json.load(chaptersFile)
         self.chapters = chaptersJson["chapters"]
-        self.currentChapter = self.chapters[self.currentChapterIndex]
-        self.currentSteps = self.currentChapter["steps"]
+        self.currentSteps = self.chapters[self.currentChapterIndex]["steps"]
         
     def nextStep(self):
-        if (self.currentStepIndex == len(self.currentSteps)):
-            self.endReached = True
+        if (self.isLastStep() and self.isLastChapter()):
+            self.endReached = True     
         else:
             currentStep = self.currentSteps[self.currentStepIndex]
 
@@ -31,13 +30,20 @@ class QueueStepper:
                 self.pygame.mixer.music.unload()
 
             self.currentStepIndex = self.currentStepIndex + 1
-            if (self.currentStepIndex == len(currentStep)):  
+
+            if (self.isLastStep()):
                 self.currentChapterIndex = self.currentChapterIndex + 1
-                if (self.currentChapterIndex == len(self.chapters)):
-                    self.endReached = True    
+                if (self.isLastChapter()):
+                    self.endReached = True
                 else:
-                    self.currentChapter = self.chapters[self.currentChapterIndex]
-                    self.currentSteps = self.currentChapter["steps"]
+                    self.currentSteps = self.chapters[self.currentChapterIndex]["steps"]
+                    self.currentStepIndex = 0
     
     def isEndReached(self):
         return self.endReached
+
+    def isLastStep(self):
+        return (self.currentStepIndex == len(self.currentSteps))
+    
+    def isLastChapter(self):
+        return (self.currentChapterIndex == len(self.chapters))
