@@ -1,6 +1,7 @@
 #Music Files
 *.mp3
 *.wav
+*.ogg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -131,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Chapters.json
