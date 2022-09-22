@@ -1,32 +1,22 @@
 {
     "chapters": [
         {
-            "id": 0,
             "name": "Beginning",
             "steps": [
                 {
-                    "id": 0,
                     "stepFunction": "Music",
                     "file": "Music/1_Beginning/ButtonClickingASMR.ogg",
                     "loops": -1
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
                     "file": "Music/1_Beginning/1_FirstGreeting.mp3"
                 },
                 {
-                    "id": 2,
                     "stepFunction": "Sound",
-                    "file": "Music/1_Beginning/2_Explanation.mp3"
+                    "file": "Music/1_Beginning/2_LetsGo.mp3"
                 },
                 {
-                    "id": 3,
-                    "stepFunction": "Sound",
-                    "file": "Music/1_Beginning/3_LetsGo.mp3"
-                },
-                {
-                    "id": 4,
                     "stepFunction": "StopMusic"
                 }
             ] 
@@ -36,107 +26,134 @@
             "name": "Choir",
             "steps": [
                 {
-                    "id": 0,
                     "stepFunction": "Music",
                     "file": "Music/2_Choir/BendikGiske-Cruising(LaurelHaloRemix).mp3",
                     "loops": -1
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
                     "file": "Music/2_Choir/1_FirstQuestion.mp3"
                 },
                 {
-                    "id": 2,
                     "stepFunction": "Sound",
                     "file": "Music/2_Choir/2_Chiara_Groove.ogg"
                 },
                 {
-                    "id": 2,
                     "stepFunction": "StopMusic"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/2_Choir/3_NextChapter.mp3"
                 }
             ] 
         },
         {
-            "id": 2,
             "name": "HistoricalBase",
             "steps": [
                 {
-                    "id": 0,
                     "stepFunction": "Music",
                     "file": "Music/3_HistoricalBase/DaveBrubeckTakeFive.mp3",
                     "loops": 0
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/1_Furche.mp3"
+                    "file": "Music/3_HistoricalBase/1_Furche.ogg"
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
                     "file": "Music/3_HistoricalBase/2_NotReally.mp3"
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/3_AllMeanings.mp3"
+                    "file": "Music/3_HistoricalBase/3_AllMeanings.ogg"
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
                     "file": "Music/3_HistoricalBase/4_DifferentMeaningsAreOk.mp3"
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/5_GrooveSexual.mp3"
+                    "file": "Music/3_HistoricalBase/5_GrooveVinyl.mp3"
                 },
                 {
-                    "id": 1,
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/6_ButTheOtherOne.mp3"
+                    "file": "Music/3_HistoricalBase/6_GrooveSexual.mp3"
                 },
                 {
-                    "id": 2,
                     "stepFunction": "StopMusic"
                 }
             ] 
         },
         {
-            "id": 3,
             "name": "Club",
             "steps": [
                 {
-                    "id": 0,
                     "stepFunction": "Music",
                     "file": "Music/4_Club/ClubMusic.ogg",
                     "loops": 0
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Chaos",
-            "steps": [
-                {
-                    "id": 0,
-                    "stepFunction": "Music",
-                    "file": "Music/5_Chaos/ChaosBackgroundMusic.ogg",
-                    "loops": 0
                 },
                 {
-                    "id": 1,
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/1_NextChapter.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/2_MovingTogether.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/3_svangig.ogg"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/4_RhetoricalQuestion.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/5_TwoRhyhtmicProcesses.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/6_SebastianMatthias.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/7_ThatsIt.mp3"
+                },
+                {
                     "stepFunction": "StopMusic"
                 }
             ]
         },
         {
-            "id": 5,
+            "name": "Chaos",
+            "steps": [
+                {
+                    "stepFunction": "Music",
+                    "file": "Music/5_Chaos/ChaosBackgroundMusic.ogg",
+                    "loops": 0
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/5_Chaos/1_IsntIt.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/5_Chaos/2_GrooveSpooky.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/5_Chaos/3_NextPieceOfText.mp3"
+                },
+                {
+                    "stepFunction": "StopMusic"
+                }
+            ]
+        },
+        {
             "name": "Pleasure",
             "steps": [
                 {
-                    "id": 0,
                     "stepFunction": "Music",
                     "file": "Music/6_Pleasure/PleasureShortened330.mp3",
                     "loops": 0
