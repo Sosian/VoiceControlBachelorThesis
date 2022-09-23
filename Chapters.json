@@ -65,7 +65,7 @@
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/3_AllMeanings.ogg"
+                    "file": "Music/3_HistoricalBase/3_AllMeanings.mp3"
                 },
                 {
                     "stepFunction": "Sound",
@@ -73,11 +73,15 @@
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/5_GrooveVinyl.mp3"
+                    "file": "Music/3_HistoricalBase/5_Keywords.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/6_GrooveSexual.mp3"
+                    "file": "Music/3_HistoricalBase/6_GrooveVinyl.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/7_GrooveSexual.mp3"
                 },
                 {
                     "stepFunction": "StopMusic"
@@ -107,21 +111,35 @@
                 {
                     "stepFunction": "Sound",
                     "file": "Music/4_Club/4_RhetoricalQuestion.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Entrainment",
+            "steps": [
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/5_Entrainment.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/5_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/4_Club/6_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/6_SebastianMatthias.mp3"
+                    "file": "Music/4_Club/7_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/7_ThatsIt.mp3"
+                    "file": "Music/4_Club/8_TwoRhyhtmicProcesses.mp3"
                 },
                 {
-                    "stepFunction": "StopMusic"
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/9_SebastianMatthias.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/10_ThatsIt.mp3"
                 }
             ]
         },
@@ -136,10 +154,6 @@
                 {
                     "stepFunction": "Sound",
                     "file": "Music/5_Chaos/1_IsntIt.mp3"
-                },
-                {
-                    "stepFunction": "Sound",
-                    "file": "Music/5_Chaos/2_GrooveSpooky.mp3"
                 },
                 {
                     "stepFunction": "Sound",

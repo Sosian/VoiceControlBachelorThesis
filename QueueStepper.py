@@ -26,6 +26,7 @@ class QueueStepper:
             if (currentStep["stepFunction"] == "Sound"):
                 print("Play sound: " + currentStep["file"])
                 sound = self.pygame.mixer.Sound(currentStep["file"])
+                print ("Volume: " + str(sound.get_volume()))
                 sound.play()
             if (currentStep["stepFunction"] == "StopMusic"):
                 print("Stop music")
