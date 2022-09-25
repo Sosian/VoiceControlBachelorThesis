@@ -14,6 +14,10 @@
                     "file": "Music/1_Beginning/1_FirstGreeting.mp3"
                 },
                 {
+                    "stepFunction": "Sound",
+                    "file": "Music/1_Beginning/2_LetsGo.mp3"
+                },
+                {
                     "stepFunction": "StopMusic"
                 }
             ] 
@@ -24,16 +28,16 @@
             "steps": [
                 {
                     "stepFunction": "Music",
-                    "file": "Music/2_Choir/BendikGiske-Cruising(LaurelHaloRemix).mp3",
+                    "file": "Music/2_Choir/1_ChoirWithVoices.ogg",
                     "volume": 0.8,
                     "loops": -1
                 },
                 {
-                    "stepFunction": "Sound",
-                    "file": "Music/2_Choir/1_FirstQuestion.mp3"
+                    "stepFunction": "StopMusic"
                 },
                 {
-                    "stepFunction": "StopMusic"
+                    "stepFunction": "Sound",
+                    "file": "Music/2_Choir/2_NextChapter.mp3"
                 }
             ] 
         },
@@ -49,6 +53,30 @@
                 {
                     "stepFunction": "Sound",
                     "file": "Music/3_HistoricalBase/1_Furche.ogg"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/2_NotReally.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/3_AllMeanings.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/4_DifferentMeaningsAreOk.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/5_Keywords.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/6_GrooveVinyl.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/3_HistoricalBase/7_GrooveSexual.mp3"
                 },
                 {
                     "stepFunction": "StopMusic"
@@ -67,6 +95,10 @@
                 {
                     "stepFunction": "Sound",
                     "file": "Music/4_Club/1_NextChapter.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/2_MovingTogether.mp3"
                 },
                 {
                     "stepFunction": "Sound",
@@ -90,27 +122,27 @@
             "steps": [
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/5_Entrainment.mp3"
+                    "file": "Music/5_Entrainment/1_Entrainment.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/6_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/2_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/7_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/3_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/8_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/4_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/9_SebastianMatthias.mp3"
+                    "file": "Music/5_Entrainment/5_SebastianMatthias.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/10_ThatsIt.mp3"
+                    "file": "Music/5_Entrainment/6_ThatsIt.mp3"
                 }
             ]
         },
@@ -119,20 +151,24 @@
             "steps": [
                 {
                     "stepFunction": "Music",
-                    "file": "Music/5_Chaos/ChaosBackgroundMusic.ogg",
+                    "file": "Music/6_Chaos/ChaosBackgroundMusic.ogg",
                     "volume": 0.8,
                     "loops": 0
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/5_Chaos/1_IsntIt.mp3"
+                    "file": "Music/6_Chaos/1_IsntIt.mp3"
                 },
                 {
                     "stepFunction": "SoundInterruption",
-                    "file": "Music/5_Chaos/2_IntoTheEarth.ogg"
+                    "file": "Music/6_Chaos/2_IntoTheEarth.ogg"
                 },
                 {
                     "stepFunction": "EndSoundInterruption"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/6_Chaos/3_NextPieceOfText.mp3"
                 }
             ]
         },
@@ -141,7 +177,7 @@
             "steps": [
                 {
                     "stepFunction": "Music",
-                    "file": "Music/6_Pleasure/PleasureShortened330.mp3",
+                    "file": "Music/7_Pleasure/PleasureShortened330.mp3",
                     "volume": 1.0,
                     "loops": 0
                 }
