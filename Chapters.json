@@ -1,67 +1,12 @@
 {
     "chapters": [
         {
-            "name": "Beginning",
-            "steps": [
-                {
-                    "stepFunction": "Music",
-                    "file": "Music/1_Beginning/ButtonClickingASMR.ogg",
-                    "volume": 0.8,
-                    "loops": -1
-                },
-                {
-                    "stepFunction": "Sound",
-                    "file": "Music/1_Beginning/1_FirstGreeting.mp3"
-                },
-                {
-                    "stepFunction": "StopMusic"
-                }
-            ] 
-        },
-        {
-            "id": 1,
-            "name": "Choir",
-            "steps": [
-                {
-                    "stepFunction": "Music",
-                    "file": "Music/2_Choir/BendikGiske-Cruising(LaurelHaloRemix).mp3",
-                    "volume": 0.8,
-                    "loops": -1
-                },
-                {
-                    "stepFunction": "Sound",
-                    "file": "Music/2_Choir/1_FirstQuestion.mp3"
-                },
-                {
-                    "stepFunction": "StopMusic"
-                }
-            ] 
-        },
-        {
-            "name": "HistoricalBase",
-            "steps": [
-                {
-                    "stepFunction": "Music",
-                    "file": "Music/3_HistoricalBase/DaveBrubeckTakeFive.mp3",
-                    "volume": 0.6,
-                    "loops": 0
-                },
-                {
-                    "stepFunction": "Sound",
-                    "file": "Music/3_HistoricalBase/1_Furche.ogg"
-                },
-                {
-                    "stepFunction": "StopMusic"
-                }
-            ] 
-        },
-        {
             "name": "Club",
             "steps": [
                 {
                     "stepFunction": "Music",
                     "file": "Music/4_Club/ClubMusic.ogg",
-                    "volume": 0.7,
+                    "volume": 0.5,
                     "loops": 0
                 },
                 {
@@ -70,18 +15,59 @@
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/3_svangig.ogg"
+                    "file": "Music/4_Club/2_MovingTogether.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/3_svangig.ogg",
+                    "volume": 0.5
                 },
                 {
                     "stepFunction": "SoundInterruption",
-                    "file": "Music/4_Club/4_VillingerSchunkellied.ogg"
+                    "file": "Music/4_Club/4_VillingerSchunkellied.ogg",
+                    "volume": 0.5
+                },
+                {
+                    "stepFunction": "EndSoundInterruption"
                 },
                 {
                     "stepFunction": "Sound",
                     "file": "Music/4_Club/4_RhetoricalQuestion.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Club",
+            "steps": [
+                {
+                    "stepFunction": "Music",
+                    "file": "Music/4_Club/ClubMusic.ogg",
+                    "volume": 0.2,
+                    "loops": 0
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/1_NextChapter.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/2_MovingTogether.mp3"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/3_svangig.ogg"
+                },
+                {
+                    "stepFunction": "SoundInterruption",
+                    "file": "Music/4_Club/4_VillingerSchunkellied.ogg",
+                    "volume": 0.3
                 },
                 {
                     "stepFunction": "EndSoundInterruption"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/4_Club/4_RhetoricalQuestion.mp3"
                 }
             ]
         },
@@ -90,27 +76,27 @@
             "steps": [
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/5_Entrainment.mp3"
+                    "file": "Music/5_Entrainment/1_Entrainment.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/6_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/2_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/7_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/3_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/8_TwoRhyhtmicProcesses.mp3"
+                    "file": "Music/5_Entrainment/4_TwoRhyhtmicProcesses.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/9_SebastianMatthias.mp3"
+                    "file": "Music/5_Entrainment/5_SebastianMatthias.mp3"
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/10_ThatsIt.mp3"
+                    "file": "Music/5_Entrainment/6_ThatsIt.mp3"
                 }
             ]
         },
@@ -119,20 +105,21 @@
             "steps": [
                 {
                     "stepFunction": "Music",
-                    "file": "Music/5_Chaos/ChaosBackgroundMusic.ogg",
-                    "volume": 0.8,
+                    "file": "Music/6_Chaos/ChaosBackgroundMusic.ogg",
+                    "volume": 0.3,
                     "loops": 0
                 },
                 {
-                    "stepFunction": "Sound",
-                    "file": "Music/5_Chaos/1_IsntIt.mp3"
-                },
-                {
                     "stepFunction": "SoundInterruption",
-                    "file": "Music/5_Chaos/2_IntoTheEarth.ogg"
+                    "file": "Music/6_Chaos/2_IntoTheEarth.ogg",
+                    "volume": 0.7
                 },
                 {
                     "stepFunction": "EndSoundInterruption"
+                },
+                {
+                    "stepFunction": "Sound",
+                    "file": "Music/6_Chaos/3_NextPieceOfText.mp3"
                 }
             ]
         },
@@ -141,9 +128,12 @@
             "steps": [
                 {
                     "stepFunction": "Music",
-                    "file": "Music/6_Pleasure/PleasureShortened330.mp3",
+                    "file": "Music/7_Pleasure/PleasureShortened330.mp3",
                     "volume": 1.0,
                     "loops": 0
+                },
+                {
+                    "stepFunction": "StopMusic"
                 }
             ]
         }

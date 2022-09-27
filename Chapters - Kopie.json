@@ -47,7 +47,7 @@
                 {
                     "stepFunction": "Music",
                     "file": "Music/3_HistoricalBase/DaveBrubeckTakeFive.mp3",
-                    "volume": 0.6,
+                    "volume": 0.1,
                     "loops": 0
                 },
                 {
@@ -89,7 +89,7 @@
                 {
                     "stepFunction": "Music",
                     "file": "Music/4_Club/ClubMusic.ogg",
-                    "volume": 0.7,
+                    "volume": 0.2,
                     "loops": 0
                 },
                 {
@@ -102,18 +102,20 @@
                 },
                 {
                     "stepFunction": "Sound",
-                    "file": "Music/4_Club/3_svangig.ogg"
+                    "file": "Music/4_Club/3_svangig.ogg",
+                    "volume": 0.5
                 },
                 {
                     "stepFunction": "SoundInterruption",
-                    "file": "Music/4_Club/4_VillingerSchunkellied.ogg"
+                    "file": "Music/4_Club/4_VillingerSchunkellied.ogg",
+                    "volume": 0.5
+                },
+                {
+                    "stepFunction": "EndSoundInterruption"
                 },
                 {
                     "stepFunction": "Sound",
                     "file": "Music/4_Club/4_RhetoricalQuestion.mp3"
-                },
-                {
-                    "stepFunction": "EndSoundInterruption"
                 }
             ]
         },
@@ -152,16 +154,13 @@
                 {
                     "stepFunction": "Music",
                     "file": "Music/6_Chaos/ChaosBackgroundMusic.ogg",
-                    "volume": 0.8,
+                    "volume": 0.5,
                     "loops": 0
                 },
                 {
-                    "stepFunction": "Sound",
-                    "file": "Music/6_Chaos/1_IsntIt.mp3"
-                },
-                {
                     "stepFunction": "SoundInterruption",
-                    "file": "Music/6_Chaos/2_IntoTheEarth.ogg"
+                    "file": "Music/6_Chaos/2_IntoTheEarth.ogg",
+                    "volume": 0.7
                 },
                 {
                     "stepFunction": "EndSoundInterruption"
@@ -180,6 +179,9 @@
                     "file": "Music/7_Pleasure/PleasureShortened330.mp3",
                     "volume": 1.0,
                     "loops": 0
+                },
+                {
+                    "stepFunction": "StopMusic"
                 }
             ]
         }
